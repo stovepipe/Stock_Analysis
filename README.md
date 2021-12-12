@@ -11,8 +11,9 @@
 [VBA_Challenge.xlsm](https://github.com/stovepipe/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
     DQAnalysis macro:
-    ```
+```
     Sub DQAnalysis()
+    
 
         Worksheets("DQ Analysis").Activate
     
@@ -69,7 +70,7 @@
             Cells(4, 3).Value = (endingPrice / startingPrice) - 1
 
     End Sub
-    ```
+```
 
     AllStocksAnalysis macro:
     ```
