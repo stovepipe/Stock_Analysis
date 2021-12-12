@@ -73,7 +73,7 @@
 ```
 
     AllStocksAnalysis macro:
-    ```
+```
     Sub AllStocksAnalysis()
         'Add timer elements for measuring code performance
         Dim startTime As Single
@@ -193,10 +193,10 @@
         MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
     End Sub
-    ```
+```
 
     AllStocksAnalysisRefactored macro:
-    ```
+```
     Sub AllStocksAnalysisRefactored()
     
         'Variables needed for code performance measurement
@@ -334,7 +334,7 @@
         MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
     End Sub
-    ```
+```
 
 ### Stock Analysis
     
